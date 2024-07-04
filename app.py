@@ -1,4 +1,4 @@
- pip install dask
+pip install dask
 import streamlit as st
 import dask.dataframe as dd
 import plotly.express as px
