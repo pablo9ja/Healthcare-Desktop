@@ -1,3 +1,4 @@
+ pip install dask
 import streamlit as st
 import dask.dataframe as dd
 import plotly.express as px
@@ -5,6 +6,7 @@ import pandas as pd
 from datetime import datetime
 import matplotlib.pyplot as plt
 import seaborn as sns
+
 
 # Load custom CSS
 st.set_page_config(layout='wide', initial_sidebar_state='expanded')
